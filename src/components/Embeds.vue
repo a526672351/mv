@@ -2,7 +2,7 @@
   <div>
     <b-embed type="iframe"
       aspect="16by9"
-      :src="`http://api.bbbbbb.me/jx/?url=${vidoUrl}`"
+      :src="`https://api.bbbbbb.me/jx/?url=${vidoUrl}`"
       allowfullscreen
     ></b-embed>
   </div>
