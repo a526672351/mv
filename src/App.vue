@@ -21,6 +21,11 @@
           <b-btn variant="success" @click="submit">Analysis</b-btn>
         </b-input-group-append>
       </b-input-group>
+      <hr class="my-4">
+      <p>
+        Support the following website videos
+      </p>
+      <Flink />
     </b-jumbotron>
   </div>
 </template>
@@ -29,11 +34,13 @@
 import ClipboardJS from 'clipboard'
 import queryString from 'query-string'
 import Embeds from './components/Embeds.vue'
+import Flink from './components/Flink.vue'
 
 export default {
   name: 'app',
   components: {
-    Embeds
+    Embeds,
+    Flink
   },
   data () {
     return {
